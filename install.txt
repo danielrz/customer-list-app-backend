@@ -1,0 +1,9 @@
+guide: https://scotch.io/tutorials/building-a-modern-app-using-nestjs-mongodb-and-vuejs
+to install and run a mongodb instance with brew https://github.com/mongodb/homebrew-brew:
+brew tap mongodb/brew
+
+if /data/db does not exist yet:
+sudo mkdir -p /data/db
+sudo chown -R `id -un` /data/db
+
+brew install mongodb-community
